@@ -13,6 +13,8 @@ function calcularSumaDefecto(numeros) {
 function calcularSumaCorregida(numeros) {
  if (!Array.isArray(numeros)) return 0; // Manejar el caso de entrada no válida
     let suma = 0;
+    for (let i = 0; i < numeros.length; i++) {
+
 
     
 
