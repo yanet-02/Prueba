@@ -12,6 +12,6 @@ function calcularSumaDefecto(numeros) {
 // Versión corregida
 function calcularSumaCorregida(numeros) {
  if (!Array.isArray(numeros)) return 0; // Manejar el caso de entrada no válida
-    let suma = 0;
+    
 
 
