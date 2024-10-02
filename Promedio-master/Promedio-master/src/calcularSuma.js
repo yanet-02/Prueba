@@ -6,7 +6,7 @@ function calcularSumaDefecto(numeros) {
     for (let i = 0; i < numeros.length; i++) {
         suma += numeros[i];
         }
-    return suma; // Defecto: si no se pasa un array, podría arrojar un error
+    return sum; // Defecto: si no se pasa un array, podría arrojar un error
 }
 
 // Versión corregida
